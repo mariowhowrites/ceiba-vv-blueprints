@@ -1,0 +1,78 @@
+{
+  "sample": {
+    "themes": [
+      {
+        "location": "automattic/_s",
+        "activate": true
+      }
+    ],
+    "mu_plugins": [
+      {
+        "location": "https://github.com/WebDevStudios/WDS-Required-Plugins.git"
+      }
+    ],
+    "plugins": [
+      {
+        "location": "https://github.com/clef/wordpress/archive/master.zip",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "cmb2",
+        "version": "2.0.5",
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      }
+    ],
+    "options": [
+      "current_theme::_s"
+    ],
+    "demo_content": [
+      "link::https://raw.githubusercontent.com/manovotny/wptest/master/wptest.xml"
+    ],
+    "defines": [
+      "WP_CACHE::false"
+    ]
+  },
+  "a-mami": {
+    "themes": [
+      {
+        "location": "automattic/_s",
+        "activate": false
+      }
+    ],
+    "plugins": [
+      {
+        "location": "polylang",
+        "activate": true
+      },
+      {
+        "location": "black-studio-tinymce-widget",
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "the-events-calendar",
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "carbon-fields",
+        "version": "null",
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      }
+    ],
+    "options": [
+      "current_theme::_s"
+    ],
+    "defines": [
+      "WP_CACHE::false"
+    ]
+  }
+
+}
